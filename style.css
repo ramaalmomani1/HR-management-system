@@ -8,9 +8,7 @@ body{
   header{
     width: auto; 
   display: flex;
-  /* justify-content: center;
-  align-items: center; */
-  /* flex-direction: column; */
+
   gap:15px; 
   }
   
@@ -40,11 +38,9 @@ body{
 
    #employee-form {
    width:auto;
-    /* background-color: #A5D7E8; */
     margin-bottom: 50px;
    }
    fieldset{
-    /* border: 2px solid #cd5c5c; */
     border-radius: 5px;
    }
    legend{
@@ -52,7 +48,6 @@ body{
     font-style: italic;
    }
    label, option{
-  /* border: 2px solid #C0DBEA; */
 
     font-size: 17px;
     font-style: italic;
@@ -174,4 +169,22 @@ img{
   padding: 6px;
   width: 250px;
   height: 300px;
+}
+
+
+table {
+  width: 75%;
+  margin-left:150px ;
+}
+
+th, td {
+  border-bottom: 1px solid #ddd;
+  height: 30px;
+  text-align: center;
+  padding-top:20px;
+
+}
+th {
+  background-color: #FFA559;
+  color: white;
 }
